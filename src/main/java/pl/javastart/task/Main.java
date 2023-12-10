@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Podaj liczbę kolumn: ");
         int size2 = scanner.nextInt();
 
-        if (size1 > 100 && size2 > 100) {
+        if (size1 > 100 || size2 > 100) {
             System.out.println("Liczba kolumn i wierszy musi być mniejsza bądź równa 100");
         } else {
 
